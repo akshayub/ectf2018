@@ -4,4 +4,4 @@
 
 **Description** - None
 
-**Hints** - None
+**Hints** - Flag format - eCTF{*type_flag_here*}
