@@ -18,7 +18,7 @@ RUN mkdir -p /home/challenge /home/challenge/web
 COPY web/ /home/challenge/web/
 
 # Expose the required port
-EXPOSE 4000
+EXPOSE 40001
 
 # Serve
 CMD ["python", "/home/challenge/web/service.py"]
