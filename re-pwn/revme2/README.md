@@ -9,4 +9,4 @@ Do you know what a Disassembler is? Linux has one.
 
 #HINT: 
 
-Look at the assembly code of main and also other things!
+Just Rev it!
