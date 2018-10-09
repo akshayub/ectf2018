@@ -39,7 +39,7 @@ def auth():
         if request.form['pass']=='onehellofapassword' and request.form['user']=='realuser':
             session['logged_in']=True
             resp = make_response(render_template('logged_in.html'))
-            resp.set_cookie('name', 'eCTF{7his_is_n07_th3_flag}')
+            resp.set_cookie('name', 'ECTF{7his_is_n07_th3_flag}')
             return resp
         else:
             return render_template('wrong_cred.html')
@@ -48,7 +48,7 @@ def auth():
 @decorate
 def flag():
     cookie = request.cookies.get('name')
-    if cookie !='eCTF{7his_is_n07_th3_flag}':
+    if cookie !='ECTF{7his_is_n07_th3_flag}':
         return Response('Bad Request', status=400)
     return render_template('flag.html')
 
@@ -56,4 +56,4 @@ def flag():
 
 if __name__ == '__main__':
     app.secret_key = os.urandom(12)
-    app.run(host='0.0.0.0',port=4000, threaded=True)
+    app.run(host='0.0.0.0',port=40001, threaded=True)
