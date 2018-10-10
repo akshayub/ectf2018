@@ -1,6 +1,6 @@
 # Challenge: pwnme1
 
-# Points: 20
+# Points: 50
 
 # Description: 
 
