@@ -8,22 +8,22 @@ app = Flask(__name__)
 def decorate(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
-        if request.headers.get('UserAgent')==None:
-            return Response('UserAgent not set', status=400)
+        if request.headers.get('User-Agent')==None:
+            return Response('User-Agent not set', status=400)
         if request.headers.get('Host')==None:
             return Response('Host Header is not set', status=400)
-        if request.headers.get('UserAgent')!='nc':
-            return Response('Only nc as UserAgent accepted', status=400)
+        if request.headers.get('User-Agent')!='nc':
+            return Response('Only nc as User-Agent accepted', status=400)
         if request.headers.get('Host')!='ectf.proxy':
             return Response('Unknown Host', status=400)
-        func(*args, **kwargs)
+        return func(*args, **kwargs)
     return wrapper
 
 
 @app.route('/', methods=['GET'])
 @decorate
 def hello():
-    
+
     if not session.get('logged_in'):
         return render_template('hello.html')
     else:
