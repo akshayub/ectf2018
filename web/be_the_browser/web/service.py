@@ -35,7 +35,6 @@ def auth():
     if request.method == 'GET':
         return render_template('login.html')
     else:
-        print request.form
         if request.form['pass']=='onehellofapassword' and request.form['user']=='realuser':
             session['logged_in']=True
             resp = make_response(render_template('logged_in.html'))
@@ -47,6 +46,8 @@ def auth():
 @app.route('/flag', methods=['GET'])
 @decorate
 def flag():
+    if not session.get('logged_in'):
+        return render_template('hello.html')
     cookie = request.cookies.get('name')
     if cookie !='ECTF{7his_is_n07_th3_flag}':
         return Response('Bad Request', status=400)
