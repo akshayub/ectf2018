@@ -15,7 +15,6 @@ You can login at ectf.nitk.ac.in: 30100 - We have to set this up!
 
 NOTE TO US: 
 
-1. This program is just present to understand what "/bin/sh" is, what system is, what setuid executable is. 
 
 2. While setting up, the user of **pwnme1** executable should be **pwnme1** it should be setuid to **pwnme1_pwn**. 
 

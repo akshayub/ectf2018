@@ -17,8 +17,6 @@ Look at [this](./sof1) executable.
 
 NOTE TO US:
 
-1. This program is just present to understand what "/bin/sh" is, what system is, what setuid executable is.
-
 2. While setting up, the user of **sof1** executable should be **sof1** it should be setuid to **sof1_pwn**.
 
 3. This is how convert sof1 into a setuid executable:

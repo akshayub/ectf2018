@@ -17,7 +17,6 @@ Look at [this](./sof0) executable.
 
 NOTE TO US:
 
-1. This program is just present to understand what "/bin/sh" is, what system is, what setuid executable is.
 
 2. While setting up, the user of **sof0** executable should be **sof0** it should be setuid to **sof0_pwn**.
 

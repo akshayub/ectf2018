@@ -17,7 +17,6 @@ NOTE FOR US:
 
 NOTE TO US: 
 
-1. This program is just present to understand what "/bin/sh" is, what system is, what setuid executable is. 
 
 2. While setting up, the user of **pwnme2** executable should be **pwnme2** it should be setuid to **pwnme2_pwn**. 
 

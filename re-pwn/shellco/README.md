@@ -18,7 +18,6 @@ Look at [this](./shellco) executable.
 
 NOTE TO US:
 
-1. This program is just present to understand what "/bin/sh" is, what system is, what setuid executable is.
 
 2. While setting up, the user of **shellco** executable should be **shellco** it should be setuid to **shellco_pwn**.
 
