@@ -1,6 +1,6 @@
 # Challenge: chainme
 
-# Points: 150
+# Points: 125
 
 # Description: 
 

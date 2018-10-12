@@ -1,6 +1,6 @@
 # Challange: revme0
 
-# Points: 50
+# Points: 25
 
 # Description: 
 

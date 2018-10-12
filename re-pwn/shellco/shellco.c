@@ -16,5 +16,6 @@ int main(int argc, char **argv) {
     setresuid(uid, uid, uid);
 
     char buffer[500];
-    strcpy(buffer, argv[0]);   
+    printf("Address of buffer: %p\n", buffer);
+    strcpy(buffer, argv[1]);   
 }

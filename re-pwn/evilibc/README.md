@@ -1,6 +1,6 @@
 # Challenge: wowlibc
 
-# Points: 125
+# Points: 100
 
 # Description: 
 

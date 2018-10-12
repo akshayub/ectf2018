@@ -1,6 +1,6 @@
 # Challenge : revme1
 
-# Challenge points: 75
+# Challenge points: 50
 
 # Description: 
 
