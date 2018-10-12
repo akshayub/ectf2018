@@ -1,6 +1,10 @@
 # Challenge: wowlibc
 
+<<<<<<< HEAD
+# Points: 100
+=======
 # Points: 125
+>>>>>>> 9d147b6875e430acce3ca1c3ac35f35441aeed93
 
 # Description: 
 

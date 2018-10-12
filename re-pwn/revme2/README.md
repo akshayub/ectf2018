@@ -1,6 +1,10 @@
 # Challenge: revme2
 
+<<<<<<< HEAD
+# Points: 75
+=======
 # Points: 100
+>>>>>>> 9d147b6875e430acce3ca1c3ac35f35441aeed93
 
 # Description: 
 

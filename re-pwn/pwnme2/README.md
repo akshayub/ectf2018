@@ -1,6 +1,10 @@
 # Challenge: pwnme2
 
+<<<<<<< HEAD
+# Points: 50
+=======
 # Points: 75
+>>>>>>> 9d147b6875e430acce3ca1c3ac35f35441aeed93
 
 # Description: 
 
