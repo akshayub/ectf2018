@@ -1,10 +1,6 @@
 # Challenge: chainme
 
-<<<<<<< HEAD
-# Points: 125
-=======
 # Points: 150
->>>>>>> 9d147b6875e430acce3ca1c3ac35f35441aeed93
 
 # Description: 
 
@@ -37,8 +33,4 @@ So, a user with chainme prvileges can also run executables with chainme_pwn(high
 
 $ sudo chmod 0400 flag.txt  - Damn Important because in normal cases, "others" are allowed to read files owned by higher-privilege-users but this should happne in our case.
 
-<<<<<<< HEAD
 This is very very important!
-=======
-This is very very important!
->>>>>>> 9d147b6875e430acce3ca1c3ac35f35441aeed93
